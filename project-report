@@ -1,0 +1,33 @@
+# Router and Switch Configuration Project Report
+
+## Introduction
+
+This project demonstrates how routers and switches can be configured using Cisco Packet Tracer to enable communication between two different networks.
+
+## Objective
+
+The objective of this project is to understand router configuration, switch configuration, and IP addressing in a Local Area Network (LAN) environment.
+
+## Network Devices Used
+
+* Cisco 1841 Router
+* Cisco 2960 Switch (2)
+* Personal Computers (4)
+
+## Implementation Steps
+
+1. Created the network topology using Cisco Packet Tracer.
+2. Connected PCs to switches using Ethernet cables.
+3. Connected the switches to the router.
+4. Assigned IP addresses to all PCs.
+5. Configured router interfaces with appropriate IP addresses.
+6. Configured switch hostnames.
+7. Tested network connectivity using ping commands.
+
+## Result
+
+All devices successfully communicated with each other across two different networks.
+
+## Conclusion
+
+This project helped in understanding basic networking concepts such as router configuration, switch configuration, IP addressing, and communication between multiple LAN networks.
