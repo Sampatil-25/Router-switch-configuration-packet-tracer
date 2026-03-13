@@ -73,7 +73,6 @@ Successful replies confirmed communication between both networks.
 See **network-topology.png** for the visual network diagram.
 
 ---
-
 ## 🎯 Conclusion
 This project demonstrates the configuration of routers and switches using Cisco Packet Tracer. It helped in understanding IP addressing, LAN communication, and how routers enable communication between different networks.
 
