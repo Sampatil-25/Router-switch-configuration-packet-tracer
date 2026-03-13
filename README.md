@@ -1,6 +1,7 @@
 # Router and Switch Configuration using Cisco Packet Tracer
 
 ## 📌 Project Description
+
 This project demonstrates the configuration of a router and switches using Cisco Packet Tracer. The goal is to enable communication between two different LAN networks by assigning IP addresses and configuring router interfaces.
 
 The project helps in understanding basic networking concepts used in real-world IT infrastructures.
@@ -8,7 +9,8 @@ The project helps in understanding basic networking concepts used in real-world 
 ---
 
 ## 🛠 Tools Used
-- Cisco Packet Tracer
+
+* Cisco Packet Tracer
 
 ---
 
@@ -16,25 +18,25 @@ The project helps in understanding basic networking concepts used in real-world 
 
 Devices used in the network:
 
-- 1 Router (Cisco 1841)
-- 2 Switches (Cisco 2960)
-- 4 PCs
+* 1 Router (Cisco 1841)
+* 2 Switches (Cisco 2960)
+* 4 PCs
 
 Two LAN networks are connected through a router.
 
-Network 1: **192.168.1.0 /24**  
+Network 1: **192.168.1.0 /24**
 Network 2: **192.168.2.0 /24**
 
 ---
 
 ## 💻 IP Address Configuration
 
-| Device | IP Address | Subnet Mask | Default Gateway |
-|------|------|------|------|
-| PC0 | 192.168.1.102 | 255.255.255.0 | 192.168.1.101 |
-| PC1 | 192.168.1.103 | 255.255.255.0 | 192.168.1.101 |
-| PC2 | 192.168.2.102 | 255.255.255.0 | 192.168.2.101 |
-| PC3 | 192.168.2.103 | 255.255.255.0 | 192.168.2.101 |
+| Device | IP Address    | Subnet Mask   | Default Gateway |
+| ------ | ------------- | ------------- | --------------- |
+| PC0    | 192.168.1.102 | 255.255.255.0 | 192.168.1.101   |
+| PC1    | 192.168.1.103 | 255.255.255.0 | 192.168.1.101   |
+| PC2    | 192.168.2.102 | 255.255.255.0 | 192.168.2.101   |
+| PC3    | 192.168.2.103 | 255.255.255.0 | 192.168.2.101   |
 
 ---
 
@@ -42,7 +44,7 @@ Network 2: **192.168.2.0 /24**
 
 Router interfaces were configured to connect two networks.
 
-FastEthernet0/0 → Network **192.168.1.0**  
+FastEthernet0/0 → Network **192.168.1.0**
 FastEthernet0/1 → Network **192.168.2.0**
 
 ---
@@ -59,8 +61,21 @@ Basic configuration was performed including assigning hostnames.
 
 Network connectivity was verified using the **ping command**.
 
-```bash
 ping 192.168.2.102
 ping 192.168.1.102
+
+Successful replies confirmed communication between both networks.
+
+---
+
+## 📷 Network Topology Screenshot
+
+See **network-topology.png** for the visual network diagram.
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates the configuration of routers and switches using Cisco Packet Tracer. It helped in understanding IP addressing, LAN communication, and how routers enable communication between different networks.
 
 These skills are essential for understanding real-world networking environments.
